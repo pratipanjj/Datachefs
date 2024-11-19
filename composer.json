@@ -1,0 +1,9 @@
+{
+    "require": {
+        "mpdf/mpdf": "^8.0",
+        "adnanhussainturki/microsoft-api-php": "^0.03.0",
+        "phpmailer/phpmailer": "^6.7",
+        "microsoft/microsoft-graph": "^1.12",
+        "vlucas/phpdotenv": "^4.3"
+    }
+}

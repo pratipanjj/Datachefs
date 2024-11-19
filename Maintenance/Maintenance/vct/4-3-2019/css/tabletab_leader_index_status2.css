@@ -1,0 +1,176 @@
+/* Table Tab */
+
+.divtable .tr
+{
+	overflow: hidden;
+	clear: both;
+	border-bottom: 1px solid #CCC;
+}
+
+.divtable .th,
+.divtable .td
+{
+	padding: 5px 10px;
+	float: left;
+}
+
+.divtable .th
+{ font-weight: bold; }
+
+.machine_name
+{ width: 10%; }
+
+.machine_code
+{ width: 10%; }
+
+.datetime
+{ width: 10%; }
+
+.datetimefinish
+{ width: 10%; }
+
+.worktype
+{ width: 5%; }
+
+.priority
+{ width: 5%; }
+
+.description
+{ width: 10%; }
+
+.effect
+{ width: 8%; }
+
+.informer
+{ width: 5%; }
+
+.workunitname
+{ width: 8% }
+
+.status
+{ width: 8%; }
+
+.engineer
+{ width: 10%; }
+
+@media (max-width: 767px)
+{
+
+	.accordion-xs .headings
+	{ display: none; }
+
+	.accordion-xs .tr
+	{ border-bottom-color: #FFF; }
+
+	.accordion-xs .th,
+	.accordion-xs .td
+	{
+		float: none;
+		width: auto;
+		padding: 0;
+	}
+
+	.accordion-xs .accordion-xs-toggle
+	{
+		background-color: #7F7F7F;
+		color: #FFF;
+		padding: 10px;
+		cursor: pointer;
+	}
+
+	.accordion-xs .accordion-xs-toggle:hover
+	{ background-color: #4E4E4E; }
+
+	.accordion-xs .accordion-xs-toggle:after
+	{
+		content: '\2b';
+		float: right;
+	}
+
+	.accordion-xs .accordion-xs-toggle.collapsed:after
+	{ content: '\2212'; }
+
+	.accordion-xs-collapse .inner
+	{ padding: 10px; }
+
+	.accordion-xs-collapse .td:before
+	{ font-weight: bold; }
+
+	.accordion-xs-collapse .machine_code:before
+	{ content: 'รหัสทรัพย์สิน : '; }
+
+	.accordion-xs-collapse .datetime:before
+	{ content: 'วันที่/เวลา : '; }
+
+	.accordion-xs-collapse .datetimefinish:before
+	{ content: 'วันที่/เวลาที่กำหนด : '; }
+
+	.accordion-xs-collapse .worktype:before
+	{ content: 'ประเภทงาน : '; }
+
+	.accordion-xs-collapse .priority:before
+	{ content: 'ความสำคัญของงาน : '; }
+
+	.accordion-xs-collapse .description:before
+	{ content: 'รายละเอียดการชำรุด/งานปรับปรุง : '; }
+
+	.accordion-xs-collapse .effect:before
+	{ content: 'ผลกระทบ : '; }
+
+	.accordion-xs-collapse .informer:before
+	{ content: 'ผู้แจ้ง : '; }
+
+	.accordion-xs-collapse .workunitname:before
+	{ content: 'หน่วยงาน : '; }
+
+	.accordion-xs-collapse .status:before
+	{ content: 'สถานะ : '; }
+
+	.accordion-xs-collapse .manage:before
+	{ content: 'จัดการ : '; }
+
+	.accordion-xs-collapse .engineer:before
+	{ content: 'ช่างที่รับงาน : '; }
+
+
+	.accordion-xs .accordion-xs-toggle:after
+	{
+		position: relative;
+		top: 1px;
+		display: inline-block;
+		font-family: 'Glyphicons Halflings';
+		font-style: normal;
+		font-weight: 400;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+	}
+}
+
+/* end Table Tab*/
+
+.btn-light-blue {
+	color:#fff;
+	background-color:#5BC0DE;
+	border-color:#5BC0DE
+}
+.btn-light-blue:hover {
+	color:#fff;
+	background-color:#17a2b8;
+	border-color:#17a2b8
+}
+.btn-light-blue.focus,.btn-light-blue:focus {
+	box-shadow:0 0 0 .2rem rgba(24, 192, 215, 0.65)
+}
+.btn-light-blue.disabled,.btn-light-blue:disabled {
+	color:#fff;
+	background-color: #ADADAD;
+	border-color: #adadad
+}
+.btn-light-blue:not(:disabled):not(.disabled).active,.btn-light-blue:not(:disabled):not(.disabled):active,.show>.btn-light-blue.dropdown-toggle{
+	color:#fff;
+	background-color:#17a2b8;
+	border-color:#17a2b8
+}
+.btn-light-blue:not(:disabled):not(.disabled).active:focus,.btn-light-blue:not(:disabled):not(.disabled):active:focus,.show>.btn-light-blue.dropdown-toggle:focus{
+	box-shadow:0 0 0 .2rem rgba(23,162,184,.5)
+}

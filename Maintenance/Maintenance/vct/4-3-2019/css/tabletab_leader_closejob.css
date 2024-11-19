@@ -1,0 +1,209 @@
+/* Table Tab */
+.divtable .tr
+{
+	overflow: hidden;
+	clear: both;
+	border-bottom: 1px solid #CCC;
+}
+
+.divtable .th,
+.divtable .td
+{
+	padding: 5px 10px;
+	float: left;
+}
+
+.divtable .th
+{ font-weight: bold; }
+
+.code
+{ width: 15%; }
+
+.datetimestart
+{ width: 15%; }
+
+.datetimefinish
+{ width: 15%; }
+
+.cause
+{ width: 15%; }
+
+.method
+{ width: 20%; }
+
+.status
+{ width: 15%; }
+
+/* 2nd row */
+.speed
+{ width: 10%; }
+
+.coordinate
+{ width: 10%; }
+
+.courteous
+{ width: 10%; }
+
+.cleanness
+{ width: 10%; }
+
+.cleannessdetail
+{ width: 10%; }
+
+.neatness
+{ width: 10%; }
+
+.neatnessdetail
+{ width: 10%; }
+
+.risk
+{ width: 10%; }
+
+.riskdetail
+{ width: 10%; }
+
+.score
+{ width: 5%; }
+
+
+@media (max-width: 767px)
+{
+
+	.accordion-xs .headings
+	{ display: none; }
+
+	.accordion-xs .tr
+	{ border-bottom-color: #FFF; }
+
+	.accordion-xs .th,
+	.accordion-xs .td
+	{
+		float: none;
+		width: auto;
+		padding: 0;
+	}
+
+	.accordion-xs .accordion-xs-toggle
+	{
+		background-color: #7F7F7F;
+		color: #FFF;
+		padding: 10px;
+		cursor: pointer;
+	}
+
+	.accordion-xs .accordion-xs-toggle:hover
+	{ background-color: #4E4E4E; }
+
+	.accordion-xs .accordion-xs-toggle:after
+	{
+		content: '\2b';
+		float: right;
+	}
+
+	.accordion-xs .accordion-xs-toggle.collapsed:after
+	{ content: '\2212'; }
+
+	.accordion-xs-collapse .inner
+	{ padding: 10px; }
+
+	.accordion-xs-collapse .td:before
+	{ font-weight: bold; }
+
+	.accordion-xs-collapse .datetimestart:before
+	{ content: 'วันที่เริ่ม : '; }
+
+	.accordion-xs-collapse .datetimefinish:before
+	{ content: 'วันที่เสร็จ : '; }
+
+	.accordion-xs-collapse .cause:before
+	{ content: 'สาเหตุ : '; }
+
+	.accordion-xs-collapse .method:before
+	{ content: 'วิธีการซ่อม / ปรับปรุง : '; }
+
+	.accordion-xs-collapse .status:before
+	{ content: 'สถานะ : '; }
+
+	/* 2nd row */
+	.accordion-xs-collapse .speed:before
+	{ content: 'ความเร็ว : '; }
+
+	.accordion-xs-collapse .coordinate:before
+	{ content: 'การประสานงาน : '; }
+
+	.accordion-xs-collapse .courteous:before
+	{ content: 'อัธยาศัยของช่าง : '; }
+
+	.accordion-xs-collapse .cleanness:before
+	{ content: 'ความสะอาดของพื้นที่ : '; }
+
+	.accordion-xs-collapse .cleannessdetail:before
+	{ content: 'รายละเอียด : '; }
+
+	.accordion-xs-collapse .neatness:before
+	{ content: 'ความเรียบร้อย : '; }
+
+	.accordion-xs-collapse .neatnessdetail:before
+	{ content: 'รายละเอียด : '; }
+
+	.accordion-xs-collapse .risk:before
+	{ content: 'ความเสี่ยงที่พบ : '; }
+
+	.accordion-xs-collapse .riskdetail:before
+	{ content: 'รายละเอียด : '; }
+
+	.accordion-xs-collapse .score:before
+	{ content: 'คะแนน : '; }
+
+	.accordion-xs .accordion-xs-toggle:after
+	{
+		position: relative;
+		top: 1px;
+		display: inline-block;
+		font-family: 'Glyphicons Halflings';
+		font-style: normal;
+		font-weight: 400;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+	}
+}
+
+/* end Table Tab*/
+
+.btn-light-blue
+{
+	color: #FFF;
+	background-color: #5BC0DE;
+	border-color: #5BC0DE
+}
+
+.btn-light-blue:hover
+{
+	color: #FFF;
+	background-color: #17A2B8;
+	border-color: #17A2B8
+}
+
+.btn-light-blue.focus, .btn-light-blue:focus
+{
+	box-shadow: 0 0 0 .2rem rgba(24, 192, 215, 0.65)
+}
+
+.btn-light-blue.disabled, .btn-light-blue:disabled
+{
+	color: #FFF;
+	background-color: #ADADAD;
+	border-color: #ADADAD
+}
+
+.btn-light-blue:not(:disabled):not(.disabled).active, .btn-light-blue:not(:disabled):not(.disabled):active, .show > .btn-light-blue.dropdown-toggle
+{
+	color: #FFF;
+	background-color: #17A2B8;
+	border-color: #17A2B8
+}
+
+.btn-light-blue:not(:disabled):not(.disabled).active:focus, .btn-light-blue:not(:disabled):not(.disabled):active:focus, .show > .btn-light-blue.dropdown-toggle:focus
+{
+	box-shadow: 0 0 0 .2rem rgba(23, 162, 184, .5)
+}

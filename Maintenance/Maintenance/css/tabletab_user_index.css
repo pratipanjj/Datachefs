@@ -1,0 +1,167 @@
+/* เฉพาะฝั่งเว็บ */
+@media (min-width: 961px)
+{
+	.td_manange
+	{
+		margin-left: 50px;
+	}
+}
+
+/* Table Tab */
+.divtable .tr
+{
+	overflow: hidden;
+	clear: both;
+	border-bottom: 1px solid #CCC;
+}
+
+.divtable .th,
+.divtable .td
+{
+	padding: 5px 10px;
+	float: left;
+}
+
+.divtable .th
+{ font-weight: bold; }
+
+.machine_name
+{ width: 15%; }
+
+.datetime
+{ width: 10%; }
+
+.datetimefinish
+{ width: 10%; }
+
+.datetimefinishen
+{ width: 10%; }
+
+.description
+{ width: 20%; }
+
+.status
+{ width: 15%; }
+
+.manage
+{ width: 10%; }
+
+.engineer
+{ width: 10%; }
+
+@media (max-width: 767px)
+{
+
+	.accordion-xs .headings
+	{ display: none; }
+
+	.accordion-xs .tr
+	{ border-bottom-color: #FFF; }
+
+	.accordion-xs .th,
+	.accordion-xs .td
+	{
+		float: none;
+		width: auto;
+		padding: 0;
+	}
+
+	.accordion-xs .accordion-xs-toggle
+	{
+		background-color: #7F7F7F;
+		color: #FFF;
+		padding: 10px;
+		cursor: pointer;
+	}
+
+	.accordion-xs .accordion-xs-toggle:hover
+	{ background-color: #4E4E4E; }
+
+	.accordion-xs .accordion-xs-toggle:after
+	{
+		content: '\2b';
+		float: right;
+	}
+
+	.accordion-xs .accordion-xs-toggle.collapsed:after
+	{ content: '\2212'; }
+
+	.accordion-xs-collapse .inner
+	{ padding: 10px; }
+
+	.accordion-xs-collapse .td:before
+	{ font-weight: bold; }
+
+	.accordion-xs-collapse .datetime:before
+	{ content: 'วันที่/เวลา : '; }
+
+	.accordion-xs-collapse .datetimefinish:before
+	{ content: 'วันที่/เวลาที่คาดว่าเสร็จ : '; }
+
+	.accordion-xs-collapse .datetimefinishen:before
+	{ content: 'วันที่/เวลาที่ซ่อมเสร็จ : '; }
+
+	.accordion-xs-collapse .description:before
+	{ content: 'รายละเอียด : '; }
+
+	.accordion-xs-collapse .status:before
+	{ content: 'สถานะ : '; }
+
+	.accordion-xs-collapse .manage:before
+	{ content: 'จัดการ : '; }
+
+	.accordion-xs-collapse .engineer:before
+	{ content: 'ช่างที่รับงาน : '; }
+
+	.accordion-xs .accordion-xs-toggle:after
+	{
+		position: relative;
+		top: 1px;
+		display: inline-block;
+		font-family: 'Glyphicons Halflings';
+		font-style: normal;
+		font-weight: 400;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+	}
+}
+
+/* end Table Tab*/
+
+.btn-light-blue
+{
+	color: #FFF;
+	background-color: #5BC0DE;
+	border-color: #5BC0DE
+}
+
+.btn-light-blue:hover
+{
+	color: #FFF;
+	background-color: #17A2B8;
+	border-color: #17A2B8
+}
+
+.btn-light-blue.focus, .btn-light-blue:focus
+{
+	box-shadow: 0 0 0 .2rem rgba(24, 192, 215, 0.65)
+}
+
+.btn-light-blue.disabled, .btn-light-blue:disabled
+{
+	color: #FFF;
+	background-color: #ADADAD;
+	border-color: #ADADAD
+}
+
+.btn-light-blue:not(:disabled):not(.disabled).active, .btn-light-blue:not(:disabled):not(.disabled):active, .show > .btn-light-blue.dropdown-toggle
+{
+	color: #FFF;
+	background-color: #17A2B8;
+	border-color: #17A2B8
+}
+
+.btn-light-blue:not(:disabled):not(.disabled).active:focus, .btn-light-blue:not(:disabled):not(.disabled):active:focus, .show > .btn-light-blue.dropdown-toggle:focus
+{
+	box-shadow: 0 0 0 .2rem rgba(23, 162, 184, .5)
+}
